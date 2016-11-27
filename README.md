@@ -20,6 +20,7 @@ MicroPython firmware for Various development board can run micropython.
 * ESP-MP-01
 * CANNON
 * Neutron
+* XMC4700 Relax Kit
  
 ---
 
