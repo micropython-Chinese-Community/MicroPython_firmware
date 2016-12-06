@@ -75,18 +75,20 @@ The nRF51822 is a powerful multi-protocol single chip solution for ULP wireless 
 
 ## Interface
 I2C
-SDA=p5
-SCL=p6
+
+    SDA = p5
+    SCL = p6
 
 SPI
-SCK=p29
-MOSI=p25
-MISO=p28
+
+    SCK = p29
+    MOSI = p25
+    MISO = p28
 
 UART
-TX=p8
-RX=p7
 
+    TX=p8
+    RX=p7
 
 [MicroPython中文社区](http://www.micropython.org.cn/)版权所有，保留所有权利
 
