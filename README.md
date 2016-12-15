@@ -8,6 +8,8 @@ MicroPython firmware for Various development board can run micropython.
 * NUCLEO_L476RG
 * NUCLEO_F401RE
 * NUCLEO_F411RE
+* NUCLEO_F746ZG
+* NUCLEO_F767ZI
 
 ### TEXAS INSTRUMENTS Boards
 
@@ -21,6 +23,8 @@ MicroPython firmware for Various development board can run micropython.
 * CANNON
 * Neutron
 * XMC4700 Relax Kit
+* Seeed Arch BLE
+* Seeed Arch Link
  
 ---
 
