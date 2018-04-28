@@ -1,12 +1,13 @@
-#Seeed Arch Link
+# Seeed Arch Link
+
 Arch Link is an mbed enabled development board based on Nordic nRF51822 and WIZnet W5500 ethernet interface. With Arduino form factor, Grove connectors and micro SD interface, it is extremely easy to create a bluetooth low energy device.
 
 [Document](http://wiki.seeed.cc/Arch_Link/)
 
-![Seeed Arch Link](arch link.jpg)
+![Seeed Arch Link](archlink.jpg)
 
 
-##Pin map
+## Pin map
     pin0:   p3
     pin1:   p2
     pin2:   p1
@@ -32,64 +33,70 @@ Arch Link is an mbed enabled development board based on Nordic nRF51822 and WIZn
 
 * bbcmicrobit\yotta_modules\microbit-dal\inc\MicroBit.h
 
-`from`
+**from**
+```
     #define MICROBIT_PIN_SDA                        P0_30
     #define MICROBIT_PIN_SCL                        P0_0
+```
 
-`to`
+**to**
+```
     #define MICROBIT_PIN_SDA                        P0_5
     #define MICROBIT_PIN_SCL                        P0_6
+```
 
 * bbcmicrobit\yotta_modules\microbit-dal\inc\MicroBitPin.h
 
-`from`
+**from**
+```
     #define MICROBIT_PIN_P13                    P0_23       //SCK
     #define MICROBIT_PIN_P14                    P0_22       //MISO
     #define MICROBIT_PIN_P15                    P0_21       //MOSI
     #define MICROBIT_PIN_P16                    P0_16       //PIN 16
     #define MICROBIT_PIN_P19                    P0_0        //SCL
     #define MICROBIT_PIN_P20                    P0_30       //SDA
-
-`to`
+```
+**to**
+```
     #define MICROBIT_PIN_P13                    P0_29       //SCK
     #define MICROBIT_PIN_P14                    P0_28       //MISO
     #define MICROBIT_PIN_P15                    P0_25       //MOSI
     #define MICROBIT_PIN_P16                    P0_30       //PIN 16
     #define MICROBIT_PIN_P19                    P0_6        //SCL
     #define MICROBIT_PIN_P20                    P0_5        //SDA
-
+```
 
 * bbcmicrobit\yotta_modules\mbed-classic\targets\hal\TARGET_NORDIC\TARGET_MCU_NRF51822\TARGET_NRF51_MICROBIT\PinNames.h
 
-`from`
+**from**
 
     TGT_TX = p24,
     TGT_RX = p25,
 
-`to`
+**to**
 
     TGT_TX = p8,
     TGT_RX = p7,
 
 ## Interface
 
-I2C
+**I2C**
 
     SDA = p5
     SCL = p6
 
-SPI
+**SPI**
 
     SCK = p29
     MOSI = p25
     MISO = p28
 
-UART
+**UART**
 
     TX=p8
     RX=p7
 
 
-[MicroPython÷–Œƒ…Á«¯](http://www.micropython.org.cn/)∞Ê»®À˘”–£¨±£¡ÙÀ˘”–»®¿˚
+[MicroPython‰∏≠ÊñáÁ§æÂå∫](http://www.micropython.org.cn/)ÁâàÊùÉÊâÄÊúâÔºå‰øùÁïôÊâÄÊúâÊùÉÂà©
 
 Copyright by [MicroPython Chinese community](http://www.micropython.org.cn/)
