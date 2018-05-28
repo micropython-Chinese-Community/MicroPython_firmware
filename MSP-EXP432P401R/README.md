@@ -1,4 +1,5 @@
-#MSP-EXP432P401R
+# MSP-EXP432P401R
+
 TI MSP432P401R LaunchPad board
 
 You need install CCS UniFlash to download firmware.

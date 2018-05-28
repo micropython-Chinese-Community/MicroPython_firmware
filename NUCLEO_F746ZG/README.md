@@ -1,4 +1,5 @@
-#Nucleo-F746ZG
+# Nucleo-F746ZG
+
 STMicroelectronics Nucleo-F746ZG baord.
 
 You may using STM32 ST-LINK Utility to download firmware (HEX).
