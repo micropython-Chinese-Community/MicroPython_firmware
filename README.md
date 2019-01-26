@@ -13,6 +13,11 @@ MicroPython firmware for Various development board can run micropython.
 * NUCLEO_F746ZG
 * NUCLEO_F767ZI
 
+### nordic
+
+* nRF52840 DK
+* microbit
+
 ### TEXAS INSTRUMENTS Boards
 
 * CC3200-LAUNCHXL
@@ -20,14 +25,15 @@ MicroPython firmware for Various development board can run micropython.
 
 ### Third party boards
 
-* PYB Nano V11
+* PYB Nano V11/V2
+* PYBCN V2
 * ESP-MP-01
 * CANNON
 * Neutron
 * XMC4700 Relax Kit
 * Seeed Arch BLE
 * Seeed Arch Link
- 
+
 ---
 
 By [Shaoziyang](shaoziyang@outlook.com)
